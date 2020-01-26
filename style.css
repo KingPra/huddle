@@ -14,6 +14,7 @@ header {
   position: absolute;
   top: 100px;
   padding-left: 60px;
+  margin: 10px;
 }
 
 .community h2 {
@@ -28,7 +29,7 @@ button {
   width: 200px;
   height: 50px;
   border-radius: 50px;
-  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
   border: none;
   color: hsl(257, 40%, 49%);
   font-size: 14px;
@@ -40,11 +41,13 @@ li {
   display: inline-block;
 }
 
-i {
+a {
   color: white;
   margin: 10px;
+  text-decoration: none;
 }
 
 ul {
   text-align: right;
+  margin-top: 0;
 }
